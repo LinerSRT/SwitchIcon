@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwitchIcon">
+        <attr format="color" name="si_tint_color"/>
+        <attr format="dimension" name="si_dash_padding"/>
+        <attr format="integer" name="si_animation_duration"/>
+        <attr format="float" name="si_disabled_alpha"/>
+        <attr format="color" name="si_disabled_color"/>
+        <attr format="boolean" name="si_enabled"/>
+        <attr format="boolean" name="si_no_dash"/>
+    </declare-styleable>
+</resources>

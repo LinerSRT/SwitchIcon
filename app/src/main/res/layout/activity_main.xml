@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.liner.switchicon.SwitchIcon
+        android:id="@+id/switch_icon1"
+        android:layout_width="70dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:src="@drawable/ic_baseline_favorite_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch_icon2"
+        app:si_animation_duration="300"
+        app:si_disabled_alpha=".3"
+        app:si_disabled_color="#838383"
+        app:si_enabled="false"
+        app:si_tint_color="#FF8F00" />
+
+    <com.liner.switchicon.SwitchIcon
+        android:id="@+id/switch_icon2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="8dp"
+        android:elevation="4dp"
+        android:src="@drawable/ic_baseline_signal_wifi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:si_animation_duration="300"
+        app:si_disabled_alpha=".3"
+        app:si_disabled_color="#838383"
+        app:si_enabled="true"
+        app:si_tint_color="#D84315" />
+
+    <com.liner.switchicon.SwitchIcon
+        android:id="@+id/switch_icon3"
+        android:layout_width="70dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_height="70dp"
+        android:layout_marginBottom="16dp"
+        android:padding="8dp"
+        android:src="@drawable/ic_baseline_bluetooth_24"
+        app:layout_constraintBottom_toTopOf="@+id/switch_icon2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:si_animation_duration="300"
+        app:si_disabled_alpha=".3"
+        app:si_disabled_color="#838383"
+        app:si_enabled="false"
+        app:si_tint_color="#2E7D32" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
