@@ -203,4 +203,8 @@ public class SwitchIcon extends AppCompatImageView {
         dashEnd.y = (int) (dashYStart + dashLengthYProjection - delta2);
     }
 
+    public boolean isIconEnabled() {
+        return isIconEnabled;
+    }
+
 }
